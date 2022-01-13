@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mr Daniel</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="header">
@@ -14,9 +15,56 @@
         <i> QA Engineer</i>
       </div>
 
-      <div class="menu">Home | Resume | Contact</div>
+      <div class="menu">
+        <a href="Home"></a> | <a href="Resume"></a> | <a href="Contact"></a>
+      </div>
     </div>
-    <div class="content"></div>
+    <div class="content">
+      <h1>Contact</h1>
+
+      <div class="section">
+        <div class="card">
+          <div class="left">
+            <form action="">
+              <div class="form-row">
+                <div>
+                  <label for="firstName">First Name</label>
+                </div>
+                <input type="text" name="firstName" id="firstName" />
+              </div>
+
+              <div class="form-row">
+                <div>
+                  <label for="lastName">Last Name</label>
+                </div>
+                <input type="text" name="lastName" id="lastName" />
+              </div>
+
+              <div class="form-row">
+                <div>
+                  <label for="email">Email</label>
+                </div>
+                <input type="text" name="email" id="email" />
+              </div>
+
+              <div class="form-row">
+                <div>
+                  <label for="message">Message</label>
+                </div>
+                <textarea
+                  name="message"
+                  id="mesaj"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+
+              <button type="submit">SEND</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="footer">
       <div>
         <h3>Phone</h3>
@@ -30,7 +78,11 @@
 
       <div>
         <h3>Follow me</h3>
-        <p>+1 124 584 77</p>
+        <p>
+          <a href="https://www.linkedin.com/feed/" target="_blank">
+            LinkedIn Hesabım
+          </a>
+        </p>
       </div>
 
       <div>

@@ -1,0 +1,21 @@
+p.kırmızı {
+  color: red;
+  text-align: center;
+}
+
+p.hos {
+  text-align: center;
+}
+
+a {
+  font-weight: 580;
+}
+
+.kutu {
+  width: 250 px;
+  height: 100 px;
+  background-color: springgreen;
+
+  border-color: tomato;
+  box-shadow: 5px;
+}

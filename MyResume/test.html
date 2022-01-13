@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kazma Sr Resume - Wellcome ...</title>
+    <link rel="stylesheet" href="css/style.css" />
+
     <!-- kullanıcılar burayı görür/ sayfa başlığı-->
   </head>
   <body>
@@ -20,8 +22,9 @@
     <!-- h6 ya kadar SEÇENEKLER  var-->
     <h4>HOSGELDİNİZ !</h4>
 
-    <p>Sayfama Hoşgeldiniz.</p>
-    <p>
+    <p class="hos">Sayfama Hoşgeldiniz.</p>
+    <p class="kırmızı">
+      <!-- CSS de şekilldendirmek için kırmızı ismi verdik-->
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem incidunt sit
       aut aliquid repellendus deleniti excepturi iure, impedit sed enim quo
       velit, adipisci consequatur laborum ea at nisi quas error.
@@ -43,12 +46,18 @@
       consequatur amet aspernatur, ratione odit omnis laboriosam, est magni
       quae, tempore et magnam cupiditate eius earum illum voluptate quisquam?
       <br />
-      <i> Optio, quisquam? Ratione fuga corrupti tempore quidem provident eius
+      <i>
+        Optio, quisquam? Ratione fuga corrupti tempore quidem provident eius
         minima earum.
       </i>
-      <u> <strong> Porro excepturi autem laboriosam deserunt pariatur veritatis perspiciatis
-      provident ducimus, <i> labore doloribus! </i> </strong> Molestias pariatur dolor molestiae
-      perferendis illo sit blanditiis exercitationem! </u>
+      <u>
+        <strong>
+          Porro excepturi autem laboriosam deserunt pariatur veritatis
+          perspiciatis provident ducimus, <i> labore doloribus! </i>
+        </strong>
+        Molestias pariatur dolor molestiae perferendis illo sit blanditiis
+        exercitationem!
+      </u>
     </p>
     <hr />
     <p>
@@ -59,5 +68,30 @@
         ducimus delectus.</u
       >
     </p>
+
+    <a href="contact.html">iletişim için ...</a>
+    <br />
+    <a href="https://github.com/kozalak1" target="_blank"></a>
+    <br />
+    <a href="img/pexels-moose-photos-1586996.jpg"></a>
+
+    <form action="kaydet.php">
+      <!-- PHP ile ilgili -- aşağıdaki butun bilgileri SUBMIT yparsak bu dosyaya gönderir-->
+      <input type="text" name="" id="" />
+
+      <input type="checkbox" name="" id="" /> bay
+      <input type="checkbox" name="" id="" /> bayan
+
+      <select name="Country" id="">
+        <option value="CANADA" CANADA></option>
+        <option value="USA" USA></option>
+        <option value="GERMENY" GERMENY></option>
+        <option value="BELGIUM" BELGIUM></option>
+      </select>
+
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+    </form>
+
+    <div class="kutu"></div>
   </body>
 </html>
