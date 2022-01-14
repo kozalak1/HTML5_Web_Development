@@ -1,21 +1,88 @@
-p.kırmızı {
-  color: red;
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
 }
 
-p.hos {
-  text-align: center;
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  font-size: 20px;
 }
 
 a {
-  font-weight: 580;
+  text-decoration: none;
 }
 
-.kutu {
-  width: 250 px;
-  height: 100 px;
-  background-color: springgreen;
+input,
+textarea {
+  border: 1px solid rgb(42, 173, 9);
+  border-radius: 10px;
+  padding: 10px;
+}
 
-  border-color: tomato;
-  box-shadow: 5px;
+button {
+  border: 1px solid rgb(34, 139, 7);
+  border-radius: 10px;
+  padding: 10px 30px;
+  background-color: rgb(86, 219, 53);
+  color: white;
+  font-size: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(86, 219, 53);
+  padding: 10px 30px;
+  border-radius: 60px;
+}
+
+.header .title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.content .about {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
+.content .about img {
+  width: 500px;
+  height: 500px;
+  border-radius: 250px;
+  border: 15px solid rgb(167, 235, 150);
+}
+
+.content .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+
+.content .toolbar {
+  display: flex;
+  gap: 20px;
+}
+
+.content .toolbar a {
+  background-color: rgb(167, 235, 150);
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
 }
