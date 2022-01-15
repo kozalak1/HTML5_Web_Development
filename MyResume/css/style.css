@@ -18,7 +18,8 @@ input,
 textarea {
   border: 1px solid rgb(42, 173, 9);
   border-radius: 10px;
-  padding: 10px;
+  padding: 15px;
+  width: 100%;
 }
 
 button {
@@ -47,8 +48,9 @@ button {
 
 .content {
   display: flex;
-  justify-content: center;
-  padding: 50px;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
 }
 
 .content .about {
@@ -85,4 +87,38 @@ button {
   justify-content: center;
   align-items: center;
   font-weight: 700;
+  box-shadow: 3px 3px 8px rgb(190, 107, 107);
+}
+
+.section {
+  width: 60%;
+}
+
+.section .card {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(167, 235, 150);
+  border-radius: 20px;
+  padding: 50px;
+  margin-bottom: 50px;
+  gap: 40px;
+  box-shadow: 3px 3px 8px rgb(190, 107, 107);
+}
+
+.section .card .left {
+  flex: 3;
+}
+
+.section .card .right {
+  flex: 2;
+}
+
+.section .form-row {
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px dotted gray;
 }
